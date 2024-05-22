@@ -6,16 +6,16 @@ import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
 let generadorDominio = () => {
-  let pronombres = ["el", "nuestro", "este"];
-  let adjetivos = ["increible", "absurdo", "cruel"];
-  let sustantivos = ["buscador", "blog", "navegador", "almacen"];
+  let pronouns = ["the", "our", "this"];
+  let adjs = ["great", "big", "cruel"];
+  let nouns = ["jogger", "racoon", "consultant"];
   let extensiones = [".com", ".es", ".net"];
 
-  for (let pronombre of pronombres) {
-    for (let adjetivo of adjetivos) {
-      for (let sustantivo of sustantivos) {
+  for (let pronoun of pronouns) {
+    for (let adj of adjs) {
+      for (let noun of nouns) {
         for (let extension of extensiones) {
-          console.log("www." + pronombre + adjetivo + sustantivo + extension);
+          console.log("www." + pronoun + adj + noun + extension);
         }
       }
     }
